@@ -1,0 +1,21 @@
+What are all the JavaScript Data Types?
+Null, Undefined, boolean, number, bigint, string, and symbol
+What is the Difference Between Const Let and Var? Consider Scope ... Give an example
+Var - Globally scoped, can be redeclared
+let is block scoped, can be updated, but not redeclared
+const is block scoped, can't be updated or redeclared
+Pass By Value vs Pass By Reference? Why would you say a String is pass by value/ or a value type? Why is an object a reference type?
+Pass By Value means the value is being copied over- but when utilized, only the copy is accessed and/or modified, leaving the original in tact. Pass by Reference would be accessing the location in memory, therefore, you would be accessing/modifying the original value.
+What do Map , Filter and Reduce do? Do they mutate the array you call them on?
+Map is a foreach loop that runs the callback for each value in an array and returns the new value in a resulting array.
+Reduce runs a callback for each element of an array as well, but passes the result of the callback to the next element in the array.
+Filter allows you to filter the array to only select the elements you're trying to reference.
+None of the above three mutate the original array
+What are all the Falsey Values in JavaScript? Why do you think this is important to know?
+False, 0, -0, 0n, "", null, undefined, NaN. It is important to know because it is very helpful when utilizing ternaries 
+What are Async and Await?
+Async tells JavaScript that the function is going to run asynchronously and tells it what to do when it encounters the await. Await allows for the promise to be resolved before moving onto the next line of code.
+What is an async function?
+An Async function is an asychronous function. Meaning, rather than handling the entire code top to bottom, the application will continue processing other parts of the code while waiting for the async function to complete.
+What are try and catch?
+Try is used for code that might throw an exception, and if there is one, to run the code enclosed in the catch. In additon to try and catch, you can also use Finally which runs code regardless of the result, and Throw to produce a custom error.
